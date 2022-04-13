@@ -14,24 +14,24 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID =   # integer value, dont use ""
-    API_HASH = ""
-    BOT_ID = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
+    API_ID = 13775350  # integer value, dont use ""
+    API_HASH = "0d0d77306594122850e0ffbbc7502adc"
+    BOT_ID = "@fghgjhfjgbot"
+    TOKEN = "5253140263:AAF9PVGIuNhhOKACzNPbpwo9n8wqBs08tXE"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly.
     OWNER_ID = 1833279646  # If you dont know, run the bot and do /id in your private chat with it, also an integer
     OWNER_USERNAME = "kavinduaj"
     SUDO_USERS = "1833279646"
     SUPPORT_USERS = "1833279646"
     SUPPORT_CHAT = "lkhitech"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        -1001237555668
+        1649890809
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        -1001237555668
+        1649890809
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    SQLALCHEMY_DATABASE_URI = ""  # needed for any database modules
+    SQLALCHEMY_DATABASE_URI = "postgres://pbkzapdwpcmwtf:0a0c19b444e0edb68addaf219a8793fbb2714ad6a0ad30210dd0415088eff504@ec2-34-197-84-74.compute-1.amazonaws.com:5432/dfj6249aur49la"  # needed for any database modules
     REDIS_URI = " "
     LOAD = []
     NO_LOAD = []
@@ -41,7 +41,7 @@ class Config(object):
     HEROKU_API_KEY = ""
     HEROKU_APP_NAME = ""
     BOT_USERNAME = ""
-    SPAMWATCH_API = ""  # go to support.spamwat.ch to get key
+    SPAMWATCH_API = "TxTE4SsILqMVuEis5_LrI3VVGreu1JcDFIgu7sx5emV9kjgGbmYzBDef_OplXRAK"  # go to support.spamwat.ch to get key
     SPAMWATCH_SUPPORT_CHAT = "@SpamWatchSupport"
     ARQ_API_KEY = "GBVANC-POIBJH-XAYVHT-XZBPTG-ARQ"
     ARQ_API_URL = "https://thearq.tech/"
